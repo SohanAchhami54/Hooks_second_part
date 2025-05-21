@@ -6,6 +6,11 @@ import {BioProvider} from './Propdrilling/Contextapi';
 import {Home} from './Propdrilling/Home';
  import { About } from './Propdrilling/About';
 import { Contact } from './Propdrilling/Contact';
+import { ReducerComp } from './hooks/UseReducer';
+import { ImproveUseReducer } from './hooks/ImproveUseReducer';
+import { ReactMemo } from './hooks/Memo/ReactMemo';
+import { UseMemo } from './hooks/Memo/UseMemo';
+
 function App() {
 
 
@@ -14,11 +19,15 @@ function App() {
       {/* <UseRef/> */}
       {/* <Useid/>   */}
       {/* <Propdrill/> */}
-      <BioProvider>
+      {/* <BioProvider>
         <Home/>
         <About/>
         <Contact/>
-      </BioProvider>
+      </BioProvider> */}
+      {/* <ReducerComp/> */}
+      {/* <ImproveUseReducer/> */}
+      <ReactMemo/>
+      {/* <UseMemo/> */}
     </>
   )
 }
